@@ -1,0 +1,90 @@
+@font-face {
+	font-family:regular;
+	src:url('../resources/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family:bold;
+	src:url('../resources/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+	font-family:light;
+	src:url('../resources/fonts/SourceSansPro-Light.ttf');
+}
+
+body {
+	background-color:#e3e3e3;
+}
+
+#mainWindow {
+	display:block;
+	margin:0px auto;
+	width:300px;
+	height:auto;
+	background-color:white;
+	border-radius:6px;
+	margin-top:160px;
+	padding-bottom:25px;
+}
+
+#logInButton {
+	width:80%;
+	height:55px;
+	border: 3px solid #27ae60;
+	border-radius:6px;
+	display:block;
+	margin:0px auto;
+	margin-top:60px;
+	font-family:bold;
+	text-align:center;
+	color:#27ae60;
+	transition:ease all .3s;
+	cursor:pointer;
+}
+
+#logInButton:hover {
+	background-color:#27ae60;
+	color:white;
+}
+
+#registerButton {
+	width:80%;
+	height:55px;
+	margin-top:30px;
+	border:3px solid #3498db;
+	text-align:center;
+	border-radius:6px;
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
+	color:#3498db;
+	cursor:pointer;
+	transition:ease all .3s;
+	font-family:bold;
+}
+
+#registerButton:hover {
+	background-color:#3498db;
+	color:white;
+}
+
+
+#logo {
+	width:32px;
+	height:auto;
+	float:left;
+	margin-left:70px;
+	margin-top:25px;
+	margin-right:8px;
+}
+
+#name {
+	font-family:bold;
+	padding-top:20px;
+}
+
+#description {
+	font-family:light;
+	text-align:center;
+}

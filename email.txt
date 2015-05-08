@@ -1,0 +1,4 @@
+Sender: nrubin999@gmail.com
+From: Nick Rubin <nrubin999@gmail.com>
+Subject: Hey Nick!
+Body: I’m testing the Mailgun SDK. This email should be processed by your PHP backend.
